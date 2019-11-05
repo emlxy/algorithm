@@ -79,7 +79,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="sort\base.h" />
     <ClInclude Include="sort\bubble.h" />
+    <ClInclude Include="sort\quick.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

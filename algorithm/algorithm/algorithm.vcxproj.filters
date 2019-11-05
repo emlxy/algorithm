@@ -30,6 +30,12 @@
     <ClInclude Include="sort\bubble.h">
       <Filter>sort</Filter>
     </ClInclude>
+    <ClInclude Include="sort\quick.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\base.h">
+      <Filter>sort</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
