@@ -5,13 +5,13 @@ class Solution004 {
 public:
     void test()
     {
-        std::vector<int> nums1 = {1,2 };
-        std::vector<int> nums2 = { 3, 4};
+        vector<int> nums1 = {1,2 };
+        vector<int> nums2 = { 3, 4};
 
         double n = findMedianSortedArrays(nums1, nums2);
         int a = 0;
     }
-    double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         int len1 = nums1.size();
         int len2 = nums2.size();
         if(len1 > len2)

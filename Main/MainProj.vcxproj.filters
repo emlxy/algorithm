@@ -42,6 +42,9 @@
     <ClInclude Include="..\Common\base.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode005.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

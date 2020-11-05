@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Common\base.h" />
+    <ClInclude Include="..\Leetcode\Leetcode005.h" />
     <ClInclude Include="..\Sort\bubble.h" />
     <ClInclude Include="..\Sort\quick.h" />
     <ClInclude Include="stdafx.h" />
