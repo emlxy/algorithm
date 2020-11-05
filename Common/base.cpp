@@ -1,7 +1,7 @@
-#pragma once
-#include <iostream>
+#include "stdafx.h"
+#include "base.h"
 
-void exchange(int a[], int i, int j)
+void exch(int a[], int i, int j)
 {
     int tmp = a[i];
     a[i] = a[j];

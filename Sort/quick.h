@@ -15,10 +15,10 @@ int partition(int a[], int low, int high)
 
         if (i >= j) break;
 
-        exchange(a, i, j);
+        exch(a, i, j);
     }
 
-    exchange(a, low, j);
+    exch(a, low, j);
 
     return j;
 }

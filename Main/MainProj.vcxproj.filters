@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{bca1ef7a-2f01-45e2-b9f2-f056596d1584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e23fb0e4-1184-4425-ad00-a63fb7f21953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Leetcode">
+      <UniqueIdentifier>{8724ce4c-a0ee-4563-a658-ceb121c50dec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +33,15 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\Sort\bubble.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sort\quick.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\base.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +49,12 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Leetcode\leetcode004.h">
+      <Filter>Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\base.cpp">
+      <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
