@@ -1,0 +1,17 @@
+Main/Debug/*
+Main/Release/*
+Debug/*
+Release/*
+ipch/
+pdb/
+*.opensdf
+*.sdf
+*.v12.suo
+*.*log
+*.pdb
+*.ilk
+*.obj
+*pch
+*.sbr
+*.idb
+*.exe
