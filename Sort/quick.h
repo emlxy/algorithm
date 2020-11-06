@@ -27,8 +27,8 @@ void quicksort(int a[], int low, int high)
 {
     if (low < high)
     {
-        int index = partition(a, low, high);
-        quicksort(a, low, index - 1);
-        quicksort(a, index + 1, high);
+        int key = partition(a, low, high);
+        quicksort(a, low, key - 1);
+        quicksort(a, key + 1, high);
     }
 }

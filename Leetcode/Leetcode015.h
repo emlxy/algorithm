@@ -10,7 +10,7 @@ public:
     }
 
     std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
-        std::map<int, int> _map;
+        
 
     }
 };
