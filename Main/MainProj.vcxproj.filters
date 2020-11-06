@@ -54,6 +54,36 @@
     <ClInclude Include="..\Leetcode\Leetcode008.h">
       <Filter>Leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode009.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode011.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode012.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode013.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode014.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode015.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode001.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode002.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode003.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode004.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,9 +91,6 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Leetcode\leetcode004.h">
-      <Filter>Leetcode</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\base.cpp">
       <Filter>Common</Filter>

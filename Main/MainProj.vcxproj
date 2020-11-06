@@ -53,6 +53,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>../Common;../Leetcode;</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,10 +82,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Common\base.h" />
+    <ClInclude Include="..\Leetcode\Leetcode001.h" />
+    <ClInclude Include="..\Leetcode\Leetcode002.h" />
+    <ClInclude Include="..\Leetcode\Leetcode003.h" />
+    <ClInclude Include="..\Leetcode\Leetcode004.h" />
     <ClInclude Include="..\Leetcode\Leetcode005.h" />
     <ClInclude Include="..\Leetcode\Leetcode006.h" />
     <ClInclude Include="..\Leetcode\Leetcode007.h" />
     <ClInclude Include="..\Leetcode\Leetcode008.h" />
+    <ClInclude Include="..\Leetcode\Leetcode009.h" />
+    <ClInclude Include="..\Leetcode\Leetcode011.h" />
+    <ClInclude Include="..\Leetcode\Leetcode012.h" />
+    <ClInclude Include="..\Leetcode\Leetcode013.h" />
+    <ClInclude Include="..\Leetcode\Leetcode014.h" />
+    <ClInclude Include="..\Leetcode\Leetcode015.h" />
     <ClInclude Include="..\Sort\bubble.h" />
     <ClInclude Include="..\Sort\quick.h" />
     <ClInclude Include="stdafx.h" />
@@ -92,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Common\base.cpp" />
-    <ClCompile Include="..\Leetcode\leetcode004.h" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

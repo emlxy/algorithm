@@ -34,9 +34,9 @@ public:
             {
                 bStart = true;
 
-                if (res > INT_MAX / 10 || (res == INT_MAX / 10 && c > '7')) return INT_MAX;
-                if (res < INT_MIN / 10 || (res == INT_MIN / 10 && c > '8')) return INT_MIN;
-                res = (std::abs(res) * 10 + c - '0') * bflag;
+                if (res > INT_MAX / 10 || (res == INT_MAX / 10 && (c-'0') > INT_MAX % 10)) return INT_MAX;
+                if (res < INT_MIN / 10 || (res == INT_MIN / 10 && ('0'- c) < INT_MIN % 10)) return INT_MIN;
+                res = res * 10 + (c - '0')*bflag;
             }
             else
                 break;
