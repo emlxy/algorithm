@@ -3,9 +3,9 @@
 
 void exch(int a[], int i, int j)
 {
-    int tmp = a[i];
+    int temp = a[i];
     a[i] = a[j];
-    a[j] = tmp;
+    a[j] = temp;
 }
 
 void printArray(int a[], int size)

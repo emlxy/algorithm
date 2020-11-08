@@ -17,7 +17,6 @@ int partition(int a[], int low, int high)
 
         exch(a, i, j);
     }
-
     exch(a, low, j);
 
     return j;

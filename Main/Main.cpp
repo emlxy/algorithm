@@ -11,10 +11,12 @@
 #include "leetcode007.h"
 #include "leetcode008.h"
 #include "leetcode009.h"
+#include "leetcode010.h"
 #include "leetcode011.h"
 #include "leetcode012.h"
 #include "leetcode013.h"
 #include "leetcode014.h"
+#include "leetcode015.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -54,6 +56,10 @@ int _tmain(int argc, _TCHAR* argv[])
     //Solution009 slu009;
     //slu009.test();
 
+    /*leetcode 010*/
+    Solution010 slu010;
+    slu010.test();
+
     /*leetcode 011*/
     //Solution011 slu011;
     //slu011.test();
@@ -70,6 +76,9 @@ int _tmain(int argc, _TCHAR* argv[])
     //Solution014 slu014;
     //slu014.test();
 
+    /*leetcode 015*/
+    //Solution015 slu015;
+    //slu015.test();
 
     system("pause");
 	return 0;
