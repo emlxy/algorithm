@@ -2,21 +2,24 @@
 //
 
 #include "stdafx.h"
-#include "leetcode001.h"
-#include "leetcode002.h"
-#include "leetcode003.h"
-#include "leetcode004.h"
-#include "leetcode005.h"
-#include "leetcode006.h"
-#include "leetcode007.h"
-#include "leetcode008.h"
-#include "leetcode009.h"
-#include "leetcode010.h"
-#include "leetcode011.h"
-#include "leetcode012.h"
-#include "leetcode013.h"
-#include "leetcode014.h"
-#include "leetcode015.h"
+#include "Leetcode001.h"
+#include "Leetcode002.h"
+#include "Leetcode003.h"
+#include "Leetcode004.h"
+#include "Leetcode005.h"
+#include "Leetcode006.h"
+#include "Leetcode007.h"
+#include "Leetcode008.h"
+#include "Leetcode009.h"
+#include "Leetcode010.h"
+#include "Leetcode011.h"
+#include "Leetcode012.h"
+#include "Leetcode013.h"
+#include "Leetcode014.h"
+#include "Leetcode015.h"
+#include "Leetcode021.h"
+#include "Leetcode037.h"
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -57,8 +60,8 @@ int _tmain(int argc, _TCHAR* argv[])
     //slu009.test();
 
     /*leetcode 010*/
-    Solution010 slu010;
-    slu010.test();
+    //Solution010 slu010;
+    //slu010.test();
 
     /*leetcode 011*/
     //Solution011 slu011;
@@ -79,6 +82,16 @@ int _tmain(int argc, _TCHAR* argv[])
     /*leetcode 015*/
     //Solution015 slu015;
     //slu015.test();
+
+
+    /*leetcode 021*/
+    //Solution021 slu021;
+    //slu021.test();
+
+    /*leetcode 037*/
+    Solution037 slu037;
+    slu037.test();
+
 
     system("pause");
 	return 0;
