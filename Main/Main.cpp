@@ -20,8 +20,10 @@
 //#include "Leetcode021.h"
 //#include "Leetcode037.h"
 //#include "Leetcode028.h"
-#include "Leetcode031.h"
-#include "Leetcode032.h"
+//#include "Leetcode031.h"
+//#include "Leetcode032.h"
+#include "Leetcode084.h"
+#include "Leetcode040.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -103,8 +105,16 @@ int _tmain(int argc, _TCHAR* argv[])
     //slu031.test();
 
     /*leetcode 032*/
-    Solution032 slu032;
-    slu032.test();
+    //Solution032 slu032;
+    //slu032.test();
+
+    /*leetcode 084*/
+    //Solution084 slu084;
+    //slu084.test();
+
+    Solution040 slu;
+    slu.test();
+
 
     system("pause");
 	return 0;

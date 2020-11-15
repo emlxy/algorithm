@@ -108,6 +108,12 @@
     <ClInclude Include="..\Leetcode\Leetcode032.h">
       <Filter>Leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode084.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Leetcode\Leetcode040.h">
+      <Filter>Leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
