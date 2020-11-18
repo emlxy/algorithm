@@ -24,6 +24,7 @@
 //#include "Leetcode032.h"
 #include "Leetcode084.h"
 #include "Leetcode040.h"
+#include "Leetcode030.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -112,9 +113,11 @@ int _tmain(int argc, _TCHAR* argv[])
     //Solution084 slu084;
     //slu084.test();
 
-    Solution040 slu;
-    slu.test();
+    //Solution040 slu;
+    //slu.test();
 
+    Solution030 slu;
+    slu.test();
 
     system("pause");
 	return 0;

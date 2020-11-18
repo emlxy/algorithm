@@ -100,6 +100,7 @@
     <ClInclude Include="..\Leetcode\Leetcode016.h" />
     <ClInclude Include="..\Leetcode\Leetcode021.h" />
     <ClInclude Include="..\Leetcode\Leetcode028.h" />
+    <ClInclude Include="..\Leetcode\Leetcode030.h" />
     <ClInclude Include="..\Leetcode\Leetcode031.h" />
     <ClInclude Include="..\Leetcode\Leetcode032.h" />
     <ClInclude Include="..\Leetcode\Leetcode037.h" />
