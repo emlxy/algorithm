@@ -33,9 +33,8 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    Solution114 slu;
-    slu.test();
-
+    //Solution114 slu;
+    //slu.test();
 
     /*leetcode 001*/
     //Solution001 slu001;
