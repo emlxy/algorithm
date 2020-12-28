@@ -114,6 +114,7 @@
     <ClInclude Include="..\Leetcode\Leetcode114.h" />
     <ClInclude Include="..\Leetcode\Leetcode123.h" />
     <ClInclude Include="..\Leetcode\Leetcode126.h" />
+    <ClInclude Include="..\Leetcode\Leetcode127.h" />
     <ClInclude Include="..\Sort\bubble.h" />
     <ClInclude Include="..\Sort\quick.h" />
     <ClInclude Include="stdafx.h" />
