@@ -32,12 +32,16 @@
 //#include "Leetcode114.h"
 //#include "Leetcode123.h"
 //#include "Leetcode126.h"
-#include "Leetcode127.h"
+//#include "Leetcode127.h"
+#include "Leetcode240.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    Solution127 slu;
+    Solution240 slu;
     slu.test();
+
+    //Solution127 slu;
+    //slu.test();
 
     //Solution126 slu;
     //slu.test();
